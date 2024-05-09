@@ -599,7 +599,7 @@ public final class FabricLoaderImpl extends net.fabricmc.loader.FabricLoader {
 	protected Path getModsDirectory0() {
 		String directory = System.getProperty(SystemProperties.MODS_FOLDER);
 
-		return directory != null ? Paths.get(directory) : gameDir.resolve("mods");
+		return directory != null ? Paths.get(directory) : gameDir.resolve("airmod-mods");
 	}
 
 	/**
